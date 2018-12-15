@@ -8,6 +8,9 @@ eureka:
 ---
 spring:
   profiles: docker
+  cloud:
+    client: ${HOSTNAME}
+
 #  zipkin:
 #    baseUrl: http://tracing-server:9411
 server:
@@ -16,3 +19,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://discovery-server:8761/eureka/
+  instance:
+    hostname: ${HOSTNAME}
+
