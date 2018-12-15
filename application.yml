@@ -51,7 +51,7 @@ spring:
   datasource:
     schema: classpath*:db/mysql/schema.sql
     data: classpath*:db/mysql/data.sql
-    url: jdbc:mysql://10.15.90.43:3306/petclinic?useSSL=false
+    url: jdbc:mysql://spring-petclinic-instance.cyujzj9pcafl.us-west-2.rds.amazonaws.com:3306/petclinic?useSSL=false
     driverClassName: com.mysql.jdbc.Driver
     username: stan_db
     password: stan_db
