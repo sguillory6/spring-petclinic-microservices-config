@@ -52,7 +52,7 @@ spring:
     schema: classpath*:db/mysql/schema.sql
     data: classpath*:db/mysql/data.sql
     url: jdbc:mysql://spring-petclinic-instance.cyujzj9pcafl.us-west-2.rds.amazonaws.com:3306/petclinic?useSSL=false
-    driverClassName: com.mysql.jdbc.Driver
-    username: stan_db
-    password: stan_db
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: stan_db1
+    password: stan_db1
     initialization-mode: ALWAYS
