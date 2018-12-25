@@ -1,5 +1,3 @@
-# Logging
-logging.level.org.springframework: DEBUG
 
 zuul:
   prefix: /api
